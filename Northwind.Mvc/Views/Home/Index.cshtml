@@ -1,0 +1,58 @@
+﻿@using Packt.Shared;
+@model HomeIndexViewModel
+
+@using Northwind.Mvc.Models;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p class="alert alert-primary">@DateTime.Now.ToLongTimeString()</p>
+</div>
+
+<p>@Html.ActionLink("Binding", "ModelBinding", "Home")</p>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>Northwind</h1>
+        <p class="lead">
+            We have had @Model?.VisitorCount visitors this month.
+        </p>
+        @if (Model is not null)
+        {
+            <h2>Products</h2>
+            <div id="product-columns">
+                <ul>
+                    @foreach (Product p in @Model.Product)
+                    {
+                        <li>
+                            <a asp-controller="Home"
+                               asp-action="ProductDetail"
+                               asp-route-id="@p.ProductId">
+                                @p.ProductName costs
+                                @(p.ProductName is null ? "zero" : p.Cost.ToString())
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+    </div>
+
+
+    <h3>Query products by price</h3>
+    <form asp-action="ProductThatCostMoreThan" method="GET">
+        <input name="price" placeholder="Enter a product price" />
+        <input type="submit" />
+    </form>
+
+    <h3>Query customers from a service</h3>
+    <form asp-action="Product" method="get">
+        <input name="id" placeholder="Enter a id" />
+        <input type="submit" />
+    </form>
+
+

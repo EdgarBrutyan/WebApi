@@ -1,0 +1,20 @@
+﻿@model Packt.Shared.Product
+@{
+     ViewData["Title"] = "Product Detail - " + Model.ProductName;
+}
+
+<h2>Product Detail</h2>
+<hr />
+<div>
+    <dl class="dl-horizontal">
+        <dt>Product Id</dt>
+        <dd>@Model.ProductId</dd>
+        <dt>Product Name</dt>
+        <dd>@Model.ProductName</dd>
+        <dt>Category Id</dt>
+        <dd>@Model.CategoryId</dd>
+        <dt>Unit Price</dt>
+        <dt>Unit is </dt>
+        <dd>(!@Model.Discontinued) ? "Discontinued" : "OK" </dd>
+    </dl>
+</div>
