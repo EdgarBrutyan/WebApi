@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "Hash": "BnGZRkSLMHVFk/vWGQBuO/6d8ojoEbODCsFXrWMA8SU=",
+  "Source": "Nortwind.Web",
+  "BasePath": "_content/Nortwind.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\edgar\\Desktop\\.NET Core\\PracticalApp\\RazorClassLibrary\\RazorClassLibrary.csproj",
+      "Version": 2,
+      "Source": "RazorClassLibrary",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Nortwind.Web\\wwwroot",
+      "Source": "Nortwind.Web",
+      "ContentRoot": "C:\\Users\\edgar\\Desktop\\.NET Core\\PracticalApp\\Nortwind.Web\\wwwroot\\",
+      "BasePath": "_content/Nortwind.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\edgar\\Desktop\\.NET Core\\PracticalApp\\Nortwind.Web\\wwwroot\\index.html",
+      "SourceId": "Nortwind.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edgar\\Desktop\\.NET Core\\PracticalApp\\Nortwind.Web\\wwwroot\\",
+      "BasePath": "_content/Nortwind.Web",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
