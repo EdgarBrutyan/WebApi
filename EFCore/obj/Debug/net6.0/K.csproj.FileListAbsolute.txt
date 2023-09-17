@@ -1,0 +1,12 @@
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\bin\Debug\net6.0\K.deps.json
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\bin\Debug\net6.0\K.dll
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\bin\Debug\net6.0\K.pdb
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\obj\Debug\net6.0\K.csproj.AssemblyReference.cache
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\obj\Debug\net6.0\K.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\obj\Debug\net6.0\K.AssemblyInfoInputs.cache
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\obj\Debug\net6.0\K.AssemblyInfo.cs
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\obj\Debug\net6.0\K.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\obj\Debug\net6.0\K.dll
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\obj\Debug\net6.0\refint\K.dll
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\obj\Debug\net6.0\K.pdb
+C:\Users\edgar\Desktop\.NET Core\PracticalApp\EFCore\obj\Debug\net6.0\ref\K.dll
